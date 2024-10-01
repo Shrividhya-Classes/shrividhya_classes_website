@@ -1,0 +1,4 @@
+baseURL = 'https://shrividhya.in/'
+languageCode = 'en-us'
+title = 'Shrividhya Classes'
+theme = 'ananke'
