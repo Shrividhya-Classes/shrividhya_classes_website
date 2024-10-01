@@ -1,7 +1,7 @@
 +++
 title = 'Demo'
 date = 2024-10-01T21:05:10+05:30
-draft = true
+draft = False
 +++
 
 ## Introduction
