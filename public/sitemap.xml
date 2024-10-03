@@ -2,17 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shrividhya.in/posts/demo/</loc>
-    <lastmod>2024-10-01T21:05:10+05:30</lastmod>
+    <loc>https://shrividhya.in/categories/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shrividhya.in/tags/latex/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shrividhya.in/categories/mathematics/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shrividhya.in/tags/mathjax/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shrividhya.in/tags/negative-angles/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shrividhya.in/posts/</loc>
-    <lastmod>2024-10-01T21:05:10+05:30</lastmod>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shrividhya.in/</loc>
-    <lastmod>2024-10-01T21:05:10+05:30</lastmod>
-  </url><url>
-    <loc>https://shrividhya.in/categories/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shrividhya.in/tags/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shrividhya.in/posts/trigonometric-functions-negative-angles/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shrividhya.in/tags/trigonometry/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shrividhya.in/categories/trigonometry/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
   </url>
 </urlset>
