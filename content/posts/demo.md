@@ -1,36 +1,41 @@
 ---
 title: "Trigonometric Functions with Negative Angles"
-description: "Learn how to evaluate trigonometric functions for negative angles, including cosine, sine, and tangent at -180°, -90°, and -270°."
+description: "Find the values of trigonometric functions such as cos(-180°), sin(-90°), and tan(-270°)."
 date: 2024-10-03
 draft: false
 slug: "trigonometric-functions-negative-angles"
-tags: ["Trigonometry", "Negative Angles", "MathJax", "LaTeX"]
-keywords: ["cosine negative angles", "sine negative angles", "tangent negative angles", "MathJax trigonometry", "LaTeX in Hugo"]
+tags: ["Trigonometry", "Negative Angles", "MathJax", "Hugo"]
+keywords: ["cosine negative angles", "sine negative angles", "tangent negative angles", "MathJax in Hugo"]
 categories: ["Mathematics", "Trigonometry"]
 author: "Vidit"
 ---
 
-<header>
-  <h1>Trigonometric Functions with Negative Angles</h1>
-</header>
+## Trigonometric Functions with Negative Angles
 
-<section>
-  <h2>Understanding Trigonometric Functions with Negative Angles</h2>
-  <p>Negative angles in trigonometry can be tricky, but they follow specific rules. The cosine function is even, while the sine and tangent functions are odd. Below, we calculate the values for cosine, sine, and tangent at negative angles like -180°, -90°, and -270°.</p>
-</section>
+Find the value of the following trigonometric expressions:
 
-<section>
-  <h2>Trigonometric Function Problems</h2>
-  <p>Here are three problems that involve finding the trigonometric function values for specific negative angles:</p>
-  
-  <!-- Task Section with LaTeX MathJax -->
-  <p>Find the value of the expression:</p>
-<ul>
-  <li>cos(-180&deg;)</li>
-  <li>sin(-90&deg;)</li>
-  <li>tan(-270&deg;)</li>
-</ul>
-</section>
+- cos(-180°)
+- sin(-90°)
+- tan(-270°)
+
+This is my content.
+
+### Solution:
+
+1. The value of $\cos(-180^{\circ})$ is:
+   $$
+   \cos(-180^{\circ}) = \cos(180^{\circ}) = -1
+   $$
+
+2. The value of $\sin(-90^{\circ})$ is:
+   $$
+   \sin(-90^{\circ}) = -\sin(90^{\circ}) = -1
+   $$
+
+3. The value of $\tan(-270^{\circ})$ is:
+   $$
+   \tan(-270^{\circ}) = \text{undefined}
+   $$
 
 <!-- MathJax Script for LaTeX Rendering -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
