@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matrices :: Tag :: Shrividhya Classes</title>
+    <link>https://shrividhya.in/resources/tags/matrices/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shrividhya.in/resources/tags/matrices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CBSE Class 12 Maths: Matrix Multiplication Question</title>
+      <link>https://shrividhya.in/resources/cbse/12/maths/matrices/question-0001/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/cbse/12/maths/matrices/question-0001/index.html</guid>
+      <description>Practice matrix multiplication with this CBSE Class 12 Mathematics question. Learn how to multiply 2x2 matrices step-by-step.</description>
+    </item>
+    <item>
+      <title>Matrices Multiplication</title>
+      <link>https://shrividhya.in/resources/cbse/cbse/12/maths/matrices/matrices_001/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/cbse/cbse/12/maths/matrices/matrices_001/index.html</guid>
+      <description>Solve the Matrix Equation Given two matrices \( A \) and \( B \): \[ A = \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 &amp; 6 \\ 7 &amp; 8 \end{bmatrix} \] Find the product \( A \times B \).</description>
+    </item>
+    <item>
+      <title>trigonometric functions</title>
+      <link>https://shrividhya.in/resources/cbse/cbse/11/maths/trigonometric_functions/trigonometric_functions_001/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/cbse/cbse/11/maths/trigonometric_functions/trigonometric_functions_001/index.html</guid>
+      <description>Solve the Matrix Equation Given two matrices \( A \) and \( B \): \[ A = \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 &amp; 6 \\ 7 &amp; 8 \end{bmatrix} \] Find the product \( A \times B \).</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.135.0">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="Solve the Matrix Equation Given two matrices \( A \) and \( B \): \[ A = \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 &amp; 6 \\ 7 &amp; 8 \end{bmatrix} \] Find the product \( A \times B \).">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Matrices Multiplication :: Shrividhya Classes">
+    <meta name="twitter:description" content="Solve the Matrix Equation Given two matrices \( A \) and \( B \): \[ A = \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 &amp; 6 \\ 7 &amp; 8 \end{bmatrix} \] Find the product \( A \times B \).">
+    <meta property="og:url" content="https://shrividhya.in/resources/cbse/cbse/12/maths/matrices/matrices_001/index.html">
+    <meta property="og:site_name" content="Shrividhya Classes">
+    <meta property="og:title" content="Matrices Multiplication :: Shrividhya Classes">
+    <meta property="og:description" content="Solve the Matrix Equation Given two matrices \( A \) and \( B \): \[ A = \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 &amp; 6 \\ 7 &amp; 8 \end{bmatrix} \] Find the product \( A \times B \).">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="CBSE">
+    <meta property="article:published_time" content="2024-10-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-10-04T00:00:00+00:00">
+    <meta property="article:tag" content="CBSE">
+    <meta property="article:tag" content="12">
+    <meta property="article:tag" content="Matrices">
+    <meta property="article:tag" content="Multiplication">
+    <meta itemprop="name" content="Matrices Multiplication :: Shrividhya Classes">
+    <meta itemprop="description" content="Solve the Matrix Equation Given two matrices \( A \) and \( B \): \[ A = \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 &amp; 6 \\ 7 &amp; 8 \end{bmatrix} \] Find the product \( A \times B \).">
+    <meta itemprop="datePublished" content="2024-10-04T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2024-10-04T00:00:00+00:00">
+    <meta itemprop="wordCount" content="47">
+    <meta itemprop="keywords" content="CBSE,12,Matrices,Multiplication">
+    <title>Matrices Multiplication :: Shrividhya Classes</title>
+    <link href="/resources/images/favicon.ico?1728062470" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/resources/css/fontawesome-all.min.css?1728062470" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/resources/css/fontawesome-all.min.css?1728062470" rel="stylesheet"></noscript>
+    <link href="/resources/css/nucleus.css?1728062470" rel="stylesheet">
+    <link href="/resources/css/auto-complete.css?1728062470" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/resources/css/auto-complete.css?1728062470" rel="stylesheet"></noscript>
+    <link href="/resources/css/perfect-scrollbar.min.css?1728062470" rel="stylesheet">
+    <link href="/resources/css/fonts.css?1728062470" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/resources/css/fonts.css?1728062470" rel="stylesheet"></noscript>
+    <link href="/resources/css/theme.css?1728062470" rel="stylesheet">
+    <link href="/resources/css/theme-zen-light.css?1728062470" rel="stylesheet" id="R-variant-style">
+    <link href="/resources/css/chroma-relearn-light.css?1728062470" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/resources/css/variant.css?1728062470" rel="stylesheet">
+    <link href="/resources/css/print.css?1728062470" rel="stylesheet" media="print">
+    <script src="/resources/js/variant.js?1728062470"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..\/..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..\/..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/shrividhya.in\/resources';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'zen-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/resources/cbse/cbse/12/maths/matrices/matrices_001/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li><a href="#solve-the-matrix-equation">Solve the Matrix Equation</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/resources/index.html"><span itemprop="name">Shrividhya Classes</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/resources/cbse/index.html"><span itemprop="name">CBSE</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/resources/cbse/12/index.html"><span itemprop="name">12</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/resources/cbse/12/maths/index.html"><span itemprop="name">Maths</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/resources/cbse/12/maths/matrices/index.html"><span itemprop="name">Matrices</span></a><meta itemprop="position" content="5">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Matrices Multiplication</span><meta itemprop="position" content="6"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/resources/cbse/12/maths/matrices/index.html" title="Matrices (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/resources/cbse/11/index.html" title="11 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="/resources/tags/cbse/index.html">CBSE</a></li>
+    <li><a class="term-link" href="/resources/tags/matrices/index.html">Matrices</a></li>
+    <li><a class="term-link" href="/resources/tags/multiplication/index.html">Multiplication</a></li>
+    <li><a class="term-link" href="/resources/tags/12/index.html">12</a></li>
+  </ul>
+</div>
+            </header>
+
+<h1 id="matrices-multiplication">Matrices Multiplication</h1>
+
+<h2 id="solve-the-matrix-equation">Solve the Matrix Equation</h2>
+<p>Given two matrices \( A \) and \( B \):
+</p>
+\[
+A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad
+B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}
+\]<p>
+Find the product \( A \times B \).</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <style>
+            #R-logo svg,
+            #R-logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#R-logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 1.875rem;
+              font-weight: 300;
+              margin-top: -.8125rem;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 14.125rem;
+              white-space: nowrap;
+            }
+            a#R-logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #R-logo svg {
+              margin-bottom: -1.25rem;
+              margin-inline-start: -1.47rem;
+              margin-inline-end: .5rem;
+              width: 40.5%;
+            }
+            @media only all and (max-width: 59.999rem) {
+              a#R-logo {
+                font-size: 1.5625rem;
+                margin-top: -.1875rem;
+              }
+              #R-logo svg {
+                margin-bottom: -.75rem;
+                margin-inline-start: -1.47rem;
+                margin-inline-end: .5rem;
+              }
+            }
+          </style>
+          <a id="R-logo" href="/resources/index.html">
+            <img src="/resources/images/logo.png" alt="Shrividhya Classes logo">
+          </a>
+        </div>
+
+        <search>
+          <div class="searchbox default-animation">
+            <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/resources/js/auto-complete.js?1728062470" defer></script>
+        <script src="/resources/js/lunr/lunr.min.js?1728062470" defer></script>
+        <script src="/resources/js/lunr/lunr.stemmer.support.min.js?1728062470" defer></script>
+        <script src="/resources/js/lunr/lunr.multi.min.js?1728062470" defer></script>
+        <script src="/resources/js/lunr/lunr.en.min.js?1728062470" defer></script>
+        <script src="/resources/js/search.js?1728062470" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/resources/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/index.html" class="parent "><input type="checkbox" id="R-section-afc9954bebb687aaadcf4e28247a80f6" aria-controls="R-subsections-afc9954bebb687aaadcf4e28247a80f6" checked><label for="R-section-afc9954bebb687aaadcf4e28247a80f6"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu CBSE</span></label><a class="padding" href="/resources/cbse/index.html">CBSE</a><ul id="R-subsections-afc9954bebb687aaadcf4e28247a80f6" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/12/index.html" class="parent alwaysopen"><input type="checkbox" id="R-section-2dfac9073f67fd8e5412b4b294b778ef" aria-controls="R-subsections-2dfac9073f67fd8e5412b4b294b778ef" checked><label for="R-section-2dfac9073f67fd8e5412b4b294b778ef"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu 12</span></label><a class="padding" href="/resources/cbse/12/index.html">12</a><ul id="R-subsections-2dfac9073f67fd8e5412b4b294b778ef" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/12/maths/index.html" class="parent alwaysopen"><input type="checkbox" id="R-section-d113ff3ffaf40f93489a5a2e8cdcc88d" aria-controls="R-subsections-d113ff3ffaf40f93489a5a2e8cdcc88d" checked><label for="R-section-d113ff3ffaf40f93489a5a2e8cdcc88d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Maths</span></label><a class="padding" href="/resources/cbse/12/maths/index.html">Maths</a><ul id="R-subsections-d113ff3ffaf40f93489a5a2e8cdcc88d" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/12/maths/inverse_trigo/index.html" class="alwaysopen"><input type="checkbox" id="R-section-a9b202e6df08b4af5e42de6d308f9f27" aria-controls="R-subsections-a9b202e6df08b4af5e42de6d308f9f27" checked><label for="R-section-a9b202e6df08b4af5e42de6d308f9f27"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Inverse Trigo</span></label><a class="padding" href="/resources/cbse/12/maths/inverse_trigo/index.html">Inverse Trigo</a><ul id="R-subsections-a9b202e6df08b4af5e42de6d308f9f27" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/12/maths/matrices/question-0001/index.html" class=""><a class="padding" href="/resources/cbse/12/maths/matrices/question-0001/index.html">CBSE Class 12 Maths: Matrix Multiplication Question</a></li></ul></li>
+          <li data-nav-id="/resources/cbse/12/maths/matrices/index.html" class="parent alwaysopen"><input type="checkbox" id="R-section-ca74562b965d0b418a8597b2d308787d" aria-controls="R-subsections-ca74562b965d0b418a8597b2d308787d" checked><label for="R-section-ca74562b965d0b418a8597b2d308787d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Matrices</span></label><a class="padding" href="/resources/cbse/12/maths/matrices/index.html">Matrices</a><ul id="R-subsections-ca74562b965d0b418a8597b2d308787d" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/cbse/12/maths/matrices/matrices_001/index.html" class="active"><a class="padding" href="/resources/cbse/cbse/12/maths/matrices/matrices_001/index.html">Matrices Multiplication</a></li></ul></li></ul></li></ul></li>
+          <li data-nav-id="/resources/cbse/11/index.html" class="alwaysopen"><input type="checkbox" id="R-section-1044cb8f1013fa707ecef33ade10fd99" aria-controls="R-subsections-1044cb8f1013fa707ecef33ade10fd99" checked><label for="R-section-1044cb8f1013fa707ecef33ade10fd99"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu 11</span></label><a class="padding" href="/resources/cbse/11/index.html">11</a><ul id="R-subsections-1044cb8f1013fa707ecef33ade10fd99" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/11/maths/index.html" class="alwaysopen"><input type="checkbox" id="R-section-af9e6b1e12a08d346ef7b0949f3e560f" aria-controls="R-subsections-af9e6b1e12a08d346ef7b0949f3e560f" checked><label for="R-section-af9e6b1e12a08d346ef7b0949f3e560f"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Maths</span></label><a class="padding" href="/resources/cbse/11/maths/index.html">Maths</a><ul id="R-subsections-af9e6b1e12a08d346ef7b0949f3e560f" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/11/maths/trigonometric_functions/index.html" class="alwaysopen"><input type="checkbox" id="R-section-78ee13b90045170c8f034d6ff87ff2c4" aria-controls="R-subsections-78ee13b90045170c8f034d6ff87ff2c4" checked><label for="R-section-78ee13b90045170c8f034d6ff87ff2c4"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Trigonometric Functions</span></label><a class="padding" href="/resources/cbse/11/maths/trigonometric_functions/index.html">Trigonometric Functions</a><ul id="R-subsections-78ee13b90045170c8f034d6ff87ff2c4" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/cbse/11/maths/trigonometric_functions/trigonometric_functions_001/index.html" class=""><a class="padding" href="/resources/cbse/cbse/11/maths/trigonometric_functions/trigonometric_functions_001/index.html">trigonometric functions</a></li></ul></li></ul></li></ul></li>
+          <li data-nav-id="/resources/cbse/10/index.html" class="alwaysopen"><input type="checkbox" id="R-section-4bbfdf19e412303a118c6b0723740925" aria-controls="R-subsections-4bbfdf19e412303a118c6b0723740925" checked><label for="R-section-4bbfdf19e412303a118c6b0723740925"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu 10</span></label><a class="padding" href="/resources/cbse/10/index.html">10</a><ul id="R-subsections-4bbfdf19e412303a118c6b0723740925" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/10/maths/index.html" class="alwaysopen"><input type="checkbox" id="R-section-8887f7787fc21695380ff2165051007b" aria-controls="R-subsections-8887f7787fc21695380ff2165051007b" checked><label for="R-section-8887f7787fc21695380ff2165051007b"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Maths</span></label><a class="padding" href="/resources/cbse/10/maths/index.html">Maths</a><ul id="R-subsections-8887f7787fc21695380ff2165051007b" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/10/maths/introduction-to-trigonometry/index.html" class="alwaysopen"><input type="checkbox" id="R-section-893c67f01e3f127f28fb0b2271c53847" aria-controls="R-subsections-893c67f01e3f127f28fb0b2271c53847" checked><label for="R-section-893c67f01e3f127f28fb0b2271c53847"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Introduction to Trigonometry</span></label><a class="padding" href="/resources/cbse/10/maths/introduction-to-trigonometry/index.html">Introduction to Trigonometry</a><ul id="R-subsections-893c67f01e3f127f28fb0b2271c53847" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/cbse/cbse/10/maths/introduction-to-trigonometry/cbse_10_maths_demo_question_001/index.html" class=""><a class="padding" href="/resources/cbse/cbse/10/maths/introduction-to-trigonometry/cbse_10_maths_demo_question_001/index.html">CBSE_10_Maths_demo_question_001</a></li></ul></li></ul></li></ul></li></ul></li>
+          <li data-nav-id="/resources/posts/index.html" class=""><input type="checkbox" id="R-section-6c8465a20210a85121ce7f08ddd74896" aria-controls="R-subsections-6c8465a20210a85121ce7f08ddd74896"><label for="R-section-6c8465a20210a85121ce7f08ddd74896"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Posts</span></label><a class="padding" href="/resources/posts/index.html">Posts</a><ul id="R-subsections-6c8465a20210a85121ce7f08ddd74896" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/posts/trigonometric-functions-negative-angles/index.html" class=""><a class="padding" href="/resources/posts/trigonometric-functions-negative-angles/index.html">Trigonometric Functions with Negative Angles</a></li></ul></li>
+          <li data-nav-id="/resources/icse_isc/index.html" class=""><input type="checkbox" id="R-section-569288665ff48bedeea96caa0fbe5b64" aria-controls="R-subsections-569288665ff48bedeea96caa0fbe5b64"><label for="R-section-569288665ff48bedeea96caa0fbe5b64"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Icse_isc</span></label><a class="padding" href="/resources/icse_isc/index.html">Icse_isc</a><ul id="R-subsections-569288665ff48bedeea96caa0fbe5b64" class="morespace collapsible-menu">
+          <li data-nav-id="/resources/icse_isc/icse_isc/cbse_10_maths_demo_question_001/index.html" class=""><a class="padding" href="/resources/icse_isc/icse_isc/cbse_10_maths_demo_question_001/index.html">CBSE_10_Maths_demo_question_001</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/resources/cbse/cbse/12/maths/matrices/matrices_001/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-zen-light" value="zen-light" selected>Zen Light</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/resources/js/clipboard.min.js?1728062470" defer></script>
+    <script src="/resources/js/perfect-scrollbar.min.js?1728062470" defer></script>
+    <script src="/resources/js/theme.js?1728062470" defer></script>
+  </body>
+</html>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+

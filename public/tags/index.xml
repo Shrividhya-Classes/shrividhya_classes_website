@@ -1,39 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Shrividhya Classes</title>
-    <link>https://shrividhya.in/tags/</link>
-    <description>Recent content in Tags on Shrividhya Classes</description>
+    <title>Tags :: Shrividhya Classes</title>
+    <link>https://shrividhya.in/resources/tags/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://shrividhya.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shrividhya.in/resources/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo</title>
-      <link>https://shrividhya.in/tags/hugo/</link>
-      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://shrividhya.in/tags/hugo/</guid>
+      <title>Tag :: 12</title>
+      <link>https://shrividhya.in/resources/tags/12/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/12/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>MathJax</title>
-      <link>https://shrividhya.in/tags/mathjax/</link>
-      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://shrividhya.in/tags/mathjax/</guid>
+      <title>Tag :: CBSE</title>
+      <link>https://shrividhya.in/resources/tags/cbse/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/cbse/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>Negative Angles</title>
-      <link>https://shrividhya.in/tags/negative-angles/</link>
-      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://shrividhya.in/tags/negative-angles/</guid>
+      <title>Tag :: Class 12</title>
+      <link>https://shrividhya.in/resources/tags/class-12/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/class-12/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>Trigonometry</title>
-      <link>https://shrividhya.in/tags/trigonometry/</link>
+      <title>Tag :: Linear Algebra</title>
+      <link>https://shrividhya.in/resources/tags/linear-algebra/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/linear-algebra/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Mathematics</title>
+      <link>https://shrividhya.in/resources/tags/mathematics/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/mathematics/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Matrices</title>
+      <link>https://shrividhya.in/resources/tags/matrices/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/matrices/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Matrix Multiplication</title>
+      <link>https://shrividhya.in/resources/tags/matrix-multiplication/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/matrix-multiplication/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Multiplication</title>
+      <link>https://shrividhya.in/resources/tags/multiplication/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/multiplication/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Negative Angles</title>
+      <link>https://shrividhya.in/resources/tags/negative-angles/index.html</link>
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://shrividhya.in/tags/trigonometry/</guid>
+      <guid>https://shrividhya.in/resources/tags/negative-angles/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Trigonometry</title>
+      <link>https://shrividhya.in/resources/tags/trigonometry/index.html</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://shrividhya.in/resources/tags/trigonometry/index.html</guid>
       <description></description>
     </item>
   </channel>

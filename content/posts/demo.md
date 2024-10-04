@@ -4,10 +4,10 @@ description: "Find the values of trigonometric functions such as cos(-180°), si
 date: 2024-10-03
 draft: false
 slug: "trigonometric-functions-negative-angles"
-tags: ["Trigonometry", "Negative Angles", "MathJax", "Hugo"]
+tags: ["Trigonometry", "Negative Angles",]
 keywords: ["cosine negative angles", "sine negative angles", "tangent negative angles", "MathJax in Hugo"]
 categories: ["Mathematics", "Trigonometry"]
-author: "Vidit"
+author: "Shrividhya Classes"
 ---
 
 ## Trigonometric Functions with Negative Angles
@@ -18,24 +18,23 @@ Find the value of the following trigonometric expressions:
 - sin(-90°)
 - tan(-270°)
 
-This is my content.
+a) Solution: The cosine function is even, meaning that \(\cos (-x)=\cos (x)\). Therefore:
 
-### Solution:
+$$
+\cos \left(-180^{\circ}\right)=\cos \left(180^{\circ}\right)=-1
+$$
 
-1. The value of $\cos(-180^{\circ})$ is:
-   $$
-   \cos(-180^{\circ}) = \cos(180^{\circ}) = -1
-   $$
+b) Solution: The sine function is odd, meaning that \(\sin (-x)=-\sin (x)\). Since \(\sin \left(90^{\circ}\right)=\) 1, we have:
 
-2. The value of $\sin(-90^{\circ})$ is:
-   $$
-   \sin(-90^{\circ}) = -\sin(90^{\circ}) = -1
-   $$
+$$
+\sin \left(-90^{\circ}\right)=-\sin \left(90^{\circ}\right)=-1
+$$
 
-3. The value of $\tan(-270^{\circ})$ is:
-   $$
-   \tan(-270^{\circ}) = \text{undefined}
-   $$
+c) Solution: The tangent function is odd, meaning that \(\tan (-x)=-\tan (x)\). Since \(\tan \left(270^{\circ}\right)\) is undefined, we conclude:
+
+$$
+\tan \left(-270^{\circ}\right)=\text { undefined }
+$$
 
 <!-- MathJax Script for LaTeX Rendering -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>

@@ -1,4 +1,56 @@
-baseURL = 'https://shrividhya.in/'
+baseURL = 'https://shrividhya.in/resources/'
+relativeURLs = false
 languageCode = 'en-us'
+defaultContentLanguage = 'en'
 title = 'Shrividhya Classes'
-theme = 'ananke'
+theme = 'relearn'
+pluralizeListTitles = false
+  
+
+# Customize the site menus and SEO settings
+[menu]
+  [[menu.main]]
+    name = "CBSE"
+    url = "/cbse/"
+    weight = 1
+  [[menu.main]]
+    name = "ICSE"
+    url = "/icse_isc/"
+    weight = 2
+  [[menu.main]]
+    name = "IBDP"
+    url = "/ib/"
+    weight = 3
+  [[menu.main]]
+    name = "IGCSE"
+    url = "/ig/"
+    weight = 4
+
+# Permalink structure for SEO-friendly URLs
+[permalinks]
+cbse = "/cbse/:sections/:slug/"
+icse_isc = "/icse_isc/:sections/:slug/"
+ib = "/ib/:sections/:slug/"
+ig = "/ig/:sections/:slug/"
+
+# Theme-specific configurations for Relearn
+[params]
+  search = true  # Enable search
+  mathjax = true # Enable MathJax for LaTeX
+  math = true
+  site_search_url = "https://shrividhya.in/search/"
+  site_navigation = true
+  logo = "images/logo.png"
+  logoTitle = "Shrividhya Classes"
+  themeVariant = 'zen-light'
+  collapsibleMenu = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'],['$', '$']]
+  

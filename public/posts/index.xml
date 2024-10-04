@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Shrividhya Classes</title>
-    <link>https://shrividhya.in/posts/</link>
-    <description>Recent content in Posts on Shrividhya Classes</description>
+    <title>Posts :: Shrividhya Classes</title>
+    <link>https://shrividhya.in/resources/posts/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://shrividhya.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shrividhya.in/resources/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trigonometric Functions with Negative Angles</title>
-      <link>https://shrividhya.in/posts/trigonometric-functions-negative-angles/</link>
+      <link>https://shrividhya.in/resources/posts/trigonometric-functions-negative-angles/index.html</link>
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://shrividhya.in/posts/trigonometric-functions-negative-angles/</guid>
-      <description>&lt;h2 id=&#34;trigonometric-functions-with-negative-angles&#34;&gt;Trigonometric Functions with Negative Angles&lt;/h2&gt;&#xA;&lt;p&gt;Find the value of the following trigonometric expressions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cos(-180°)&lt;/li&gt;&#xA;&lt;li&gt;sin(-90°)&lt;/li&gt;&#xA;&lt;li&gt;tan(-270°)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is my content.&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The value of $\cos(-180^{\circ})$ is:&#xA;$$&#xA;\cos(-180^{\circ}) = \cos(180^{\circ}) = -1&#xA;$$&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The value of $\sin(-90^{\circ})$ is:&#xA;$$&#xA;\sin(-90^{\circ}) = -\sin(90^{\circ}) = -1&#xA;$$&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The value of $\tan(-270^{\circ})$ is:&#xA;$$&#xA;\tan(-270^{\circ}) = \text{undefined}&#xA;$$&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>https://shrividhya.in/resources/posts/trigonometric-functions-negative-angles/index.html</guid>
+      <description>Find the values of trigonometric functions such as cos(-180°), sin(-90°), and tan(-270°).</description>
     </item>
   </channel>
 </rss>
