@@ -5,7 +5,6 @@ date: 2024-10-04
 lastmod: 2024-10-04
 draft: false
 math: true
-url: "/cbse/12/maths/matrices/question-0001"
 tags:
   [
     "CBSE",

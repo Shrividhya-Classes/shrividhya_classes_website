@@ -28,10 +28,10 @@ pluralizeListTitles = false
 
 # Permalink structure for SEO-friendly URLs
 [permalinks]
-cbse = "/cbse/:sections/:slug/"
-icse_isc = "/icse_isc/:sections/:slug/"
-ib = "/ib/:sections/:slug/"
-ig = "/ig/:sections/:slug/"
+cbse = "/:sections/:title/"
+icse_isc = "/:sections/:title/"
+ib = "/:sections/:title/"
+ig = "/:sections/:title/"
 
 # Theme-specific configurations for Relearn
 [params]
