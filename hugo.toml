@@ -12,11 +12,11 @@ pluralizeListTitles = false
   [[menu.main]]
     name = "CBSE"
     url = "/cbse/"
-    weight = 1
+    weight = 2
   [[menu.main]]
     name = "ICSE"
     url = "/icse_isc/"
-    weight = 2
+    weight = 1
   [[menu.main]]
     name = "IBDP"
     url = "/ib/"
@@ -25,6 +25,10 @@ pluralizeListTitles = false
     name = "IGCSE"
     url = "/ig/"
     weight = 4
+  [[menu.main]]
+    name = "Contact Us"
+    url = "/contact/"
+    weight = 100
 
 # Permalink structure for SEO-friendly URLs
 [permalinks]

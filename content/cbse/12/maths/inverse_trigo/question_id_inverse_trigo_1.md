@@ -1,5 +1,5 @@
 ---
-title: "CBSE Class 12 Maths: Matrix Multiplication Question"
+title: "Matrix Multiplication Question"
 description: "Practice matrix multiplication with this CBSE Class 12 Mathematics question. Learn how to multiply 2x2 matrices step-by-step."
 date: 2024-10-04
 lastmod: 2024-10-04

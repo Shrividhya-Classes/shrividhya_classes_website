@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Negative Angles :: Tag :: Shrividhya Classes</title>
-    <link>https://shrividhya.in/resources/tags/negative-angles/index.html</link>
+    <link>http://localhost:1313/resources/tags/negative-angles/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://shrividhya.in/resources/tags/negative-angles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/resources/tags/negative-angles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trigonometric Functions with Negative Angles</title>
-      <link>https://shrividhya.in/resources/posts/trigonometric-functions-negative-angles/index.html</link>
+      <link>http://localhost:1313/resources/posts/trigonometric-functions-negative-angles/index.html</link>
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://shrividhya.in/resources/posts/trigonometric-functions-negative-angles/index.html</guid>
+      <guid>http://localhost:1313/resources/posts/trigonometric-functions-negative-angles/index.html</guid>
       <description>Find the values of trigonometric functions such as cos(-180°), sin(-90°), and tan(-270°).</description>
     </item>
   </channel>
